@@ -10,6 +10,5 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
         System.out.println("May I know how to learn"+" "+s+"!!!...");
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 }
