@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        
+        if(num < 100 || num > 999) {
+            System.out.println("No");
+        } else {
+            int d1 = num / 100;           
+            int d2 = (num / 10) % 10;     
+            int d3 = num % 10;          
+            
+            int sum = (d1*d1*d1) + (d2*d2*d2) + (d3*d3*d3);
+            
+            if(sum == num)
+                System.out.println("Yes");
+            else
+                System.out.println("No");
+        }
+    }
+}
